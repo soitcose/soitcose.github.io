@@ -1,0 +1,53 @@
+@font-face {
+    font-family: Consolas;
+    src: url('../fonts/Consolas-Font/CONSOLA.TTF');
+}
+
+body {
+
+    background-image: linear-gradient(to left, rgb(201, 211, 229), rgb(235, 224, 168));
+    background-size: 100%;
+    max-height: 500px;
+}
+
+p { 
+    font-family: Consolas;
+    position: relative;
+    left: 1050px; bottom: 925px;
+    color: beige;
+}
+
+video {
+    position:relative;
+    left:200px;
+    bottom:200px;
+    height:1000px;
+    width:750px;
+
+}
+
+a:link { color:whitesmoke}
+
+a:visited { color: rgb(85, 183, 216);}
+
+a:hover {color: aquamarine;}
+
+.home {
+    position:fixed;
+    left: 15px;
+    top: 15px
+ }
+
+.home img { 
+    width: 30px;
+}
+
+.goback {
+    position:fixed;
+    left: 15px;
+    top: 60px
+ }
+
+.goback img { 
+    width: 30px;
+}

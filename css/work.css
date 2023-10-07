@@ -1,0 +1,140 @@
+body {
+    background-color:plum;
+    height:100%;
+}
+
+.menu {
+    background-color: rgb(255, 255, 255);
+    width: 5%;
+    padding: 0.5%;
+    border: 3px solid yellow;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0%;
+    left: 37.5%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.menu2 {
+    background-color: rgb(255, 255, 255);
+    width: 5%;
+    padding: 0.5%;
+    border: 3px solid yellow;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0%;
+    left: 44.5%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.menu3 {
+    background-color: rgb(255, 255, 255);
+    width: 10%;
+    padding: 0.5%;
+    border: 3px solid yellow;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0%;
+    left: 51.5%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.menu:hover, .menu2:hover, .menu3:hover {
+    background-color: rgb(52, 221, 43);
+}
+
+div a:link {color: plum; text-decoration: none;}
+div a:visited {color: plum; text-decoration: none;}
+div a:hover {color: aqua;}
+div a:active {color: chartreuse;}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20pt;
+    color: yellow;
+    text-align: center;
+}
+
+h6 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    font-weight: lighter;
+    color: yellow;
+    text-align: center;
+    position: relative; bottom: 30px;
+}
+
+img {
+    border: 5px solid yellow;
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.akaii1:hover, .occupy1:hover, .stickyfeet1:hover, .stickyfeet2:hover, .ice-princess1:hover,
+.html-zine1:hover, .queer-zine1:hover, .black-friday1:hover, .icetober:hover, .dance1:hover, .dance2:hover,
+.essay1:hover
+{ border: 10px solid aqua}
+
+.writing {text-align: center;}
+
+.writing:hover { opacity: 1;}
+
+.alternativeice {
+    text-align: center;
+    position: relative;
+    text-align: center;
+    margin: auto;
+}
+
+.altice {
+    width: 90%;
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    margin: auto;
+    top: 0px;
+}
+
+.ice-ink {text-align: center;}
+
+button {
+margin-top: 10px;
+  position:relative;
+display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12pt;
+  color: yellow;
+  background-color: rgb(87, 179, 228);
+  border: 3px solid yellow;
+  text-align: center;
+  padding: 10px 20px;
+
+}
+
+button:hover {
+    opacity: 0.7;
+}
+
+@media only screen and (min-width: 768px) {
+img {
+    width: 30%;
+    border: 5px solid yellow;
+}
+.altice {width:30%;}
+.menu, .menu2, .menu3 { position:fixed; left:1%;}
+.menu {top:1%;}
+.menu2 {top:6%;}
+.menu3 {top:11.05%; width:5%;} 
+
+}
+
+
+

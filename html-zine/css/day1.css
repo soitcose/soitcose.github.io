@@ -1,0 +1,58 @@
+@font-face {
+    font-family: Consolas;
+    src: url("../fonts/Consolas-Font/CONSOLA.TTF");
+    src: url("../fonts/transfonter.org-20230111-145103/Consolas.woff");
+}
+
+ 
+body { 
+        background-image:url('../img/dayone.jpg') ;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+}
+
+
+p { 
+    display: inline-block;
+    font-family: Consolas;
+    font-size: 11pt;
+}
+
+.link { 
+    position:relative; left: 3500px; bottom:130px;
+    font-family: Consolas;
+}
+
+
+
+a:link { color:whitesmoke}
+
+a:visited { color: lightblue;}
+
+a:hover {color: aquamarine;}
+
+pre { 
+    color: whitesmoke;
+}
+
+.home {
+    position:fixed;
+    left: 15px;
+    top: 15px
+ }
+
+.home img { 
+    width: 30px;
+}
+
+.goback {
+    position:fixed;
+    left: 15px;
+    top: 60px
+ }
+
+.goback img { 
+    width: 30px;
+}

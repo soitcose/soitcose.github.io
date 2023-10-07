@@ -1,0 +1,57 @@
+@font-face {
+    font-family: Consolas;
+    src: url('../fonts/Consolas-Font/CONSOLA.TTF');
+}
+
+body { 
+    background-image:url('../img/stillsea.jpg') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+p { 
+    display: inline-block;
+    color: rgb(252, 252, 242);
+    font-family: Consolas;
+    font-size: 11pt;
+}
+
+.text {position: relative;left:500px;top:200px; }
+
+.link2 { 
+    position: relative;
+    bottom: 520px;left:2750px;
+}
+
+
+img{
+    position:relative; right: 100px; bottom: 80px;
+    background-color: transparent;
+}
+
+a:link { color:whitesmoke}
+
+a:visited { color: lightblue;}
+
+a:hover {color: aquamarine;}
+
+.home {
+    position:fixed;
+    left: 120px;
+    top: 100px
+ }
+
+.home img { 
+    width: 30px;
+}
+
+.goback {
+    position:fixed;
+    left: 120px;
+    top: 150px
+ }
+
+.goback img { 
+    width: 30px;
+}

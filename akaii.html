@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, intitial-scale=1.0" />
+<link rel="stylesheet" href="./css/akaii.css" />
+<title> coos' portfolio </title>
+</head>
+
+<body>
+
+<p> song </p>    
+
+    <div class="akaii-video">
+<iframe 
+src="https://www.youtube-nocookie.com/embed/rt5YHSZbJYg?si=NA-1aPdQimGqcq6a" 
+title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
+clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+allowfullscreen></iframe>
+</div>
+
+<p> instagram </p>
+
+<div class="insta">
+    <a href="https://www.instagram.com/akaii.iiaka/" target="_blank" rel="noopener noreferrer">
+    <img class='insta-pf' src="img-min/akaii/akaii-insta-pf-min.png">
+</a>
+</div>
+
+<p> life story </p>
+
+<div class="storytitle-div">
+<img class="storytitle" src="img-min/akaii/akaii0.jpg">
+</div>
+
+<div class="lifestory-slides"> 
+<img class="lifestory" src="img-min/akaii/akaii1-2.JPEG">
+<img class="lifestory" src="img-min/akaii/akaii3.jpg">
+<img class="lifestory" src="img-min/akaii/akaii4.jpg">
+<img class="lifestory" src="img-min/akaii/akaii5.jpg">
+<img class="lifestory" src="img-min/akaii/akaii6.jpg">
+<img class="lifestory" src="img-min/akaii/akaii7.jpg">
+<img class="lifestory" src="img-min/akaii/akaii8.jpg">
+<img class="lifestory" src="img-min/akaii/akaii9.jpg">
+<img class="lifestory" src="img-min/akaii/akaii10.jpg">
+<img class="lifestory" src="img-min/akaii/akaii11.jpg">
+<img class="lifestory" src="img-min/akaii/akaii12.jpg">
+<img class="lifestory" src="img-min/akaii/akaii13.JPEG">
+
+<button class="left" onclick="plusDivs(-1)">&#10094;</button>
+<button class="right" onclick="plusDivs(+1)">&#10095;</button>
+
+</div>
+
+<script>
+    var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("lifestory");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length} ;
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  x[slideIndex-1].style.display = "block";
+}
+</script>
+
+
+
+</body>

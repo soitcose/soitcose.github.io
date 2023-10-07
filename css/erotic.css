@@ -1,0 +1,26 @@
+body { background-color: rgb(63, 116, 216);}
+
+p {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: pink;
+    font-size: 12pt;
+    line-height: 200%;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: pink;
+    font-size: 35pt;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: pink;
+    font-size: 16pt;
+}
+
+.alltext {
+    width: 90%;
+    text-align: left;
+    margin: auto;
+}
