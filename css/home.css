@@ -37,9 +37,10 @@ a:hover {
 }
 .name {
     text-align: center;
-    font-size: 72pt;
+    font-size: 110pt;
     color:whitesmoke;
     font-weight:bolder;
+    margin: 5%;
     -webkit-text-stroke-color: rgb(0, 52, 183);
    -webkit-text-stroke-width: 2px;
     position: relative;
@@ -64,7 +65,7 @@ a:hover {
     text-align: center;
     margin:auto;
     position: relative;
-    bottom: px;
+    top: 20px;
  }
 
 .oval:hover {
@@ -92,7 +93,7 @@ a:hover {
     font-size: 10pt;
     text-align: center;
     position: relative;
-    top: 30px;
+    top: 50px;
 }
 
 .rectangle:hover {
