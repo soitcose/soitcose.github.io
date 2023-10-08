@@ -69,6 +69,7 @@ h1 {
     width: 90%;
     position: relative;
     color: yellow;
+    text-align: center;
 }
 
 .portrait {
@@ -95,6 +96,7 @@ margin-top: 10%;}
         position: fixed;
         left:52%;
         top:5%;
+        text-align: left;
     }
     .goback, .menu, .menu2 { position:fixed; left:1%;}
     .goback {top:2.7%; width:7.5%; }
