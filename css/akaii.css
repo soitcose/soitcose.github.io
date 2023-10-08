@@ -133,7 +133,7 @@ iframe {
     .storytitle {width:50%;}
     iframe {width: 220px; height:220px; }
     .goback, .menu, .menu3 { position:fixed; left:1%;}
-.goback {top:1%; width:7.4%; }
-.menu {top:7.2%; width:6%;}
-.menu3 {top:12.15%; width:6%;} 
+.goback {top:1%; width:7.5%; }
+.menu {top:6.2%; width:6%;}
+.menu3 {top:11.45%; width:6%;} 
 }
