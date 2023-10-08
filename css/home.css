@@ -37,24 +37,17 @@ a:hover {
 }
 .name {
     text-align: center;
-    font-size: 110pt;
+    font-size: 95pt;
     color:whitesmoke;
     font-weight:bolder;
     margin: 5%;
     -webkit-text-stroke-color: rgb(0, 52, 183);
    -webkit-text-stroke-width: 2px;
     position: relative;
-    top: 85px;
+    top: 100px;
     text-shadow:0px 0px 15px rgb(5, 109, 83);
 }
 
-.click {
-    text-align: center;
-    position: relative;
-    right:100px;
-    top:20px;
-    color: rgb(5, 109, 83);
-}
 
 .oval {
     height: 50px;
@@ -65,20 +58,13 @@ a:hover {
     text-align: center;
     margin:auto;
     position: relative;
-    top: 20px;
+    top: 60px;
  }
 
 .oval:hover {
     background-color: red;
 }
 
- .click2 {
-    text-align: center;
-    position: relative;
-    bottom: 85px;
-    left: 140px;
-    color: rgb(5, 109, 83);
- }
 
 .rectangle {
     height: fit-content;
@@ -93,7 +79,7 @@ a:hover {
     font-size: 10pt;
     text-align: center;
     position: relative;
-    top: 50px;
+    top: 90px;
 }
 
 .rectangle:hover {
@@ -105,8 +91,14 @@ a:hover {
 }
 
 @media only screen and (min-width: 768px) {
-   .rectangle { width: 5%;}
-    
+   .rectangle { width: 5%;
+    position: relative;
+    top: 50px;}
+    .name { position: relative;
+    top: 85px;
+    font-size: 110pt; }
+   .oval { position: relative;
+    top: 20px; }
     }
 
 
