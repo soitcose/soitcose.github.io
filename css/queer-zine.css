@@ -23,7 +23,7 @@ body {
     border: 3px solid yellow;
     position: fixed;
     top: 0%;
-    left: 32.5%;
+    left: 32.25%;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
@@ -76,7 +76,7 @@ img {
     margin-left: 1%;
     margin-right: 1%;
     margin-bottom: 1%;
-    margin-top: 5%;
+    margin-top: 6%;
 }
 
 
@@ -89,13 +89,12 @@ img {
 
 
 @media only screen and (min-width: 768px) {
-    img { width: 30%; }
+    img { width: 30%; margin-top: 3%;}
     .collection {width:29%; }
     .bathroom {width: 27.4%;}
     .cuddling {width:38%; 
         position: relative;
-        right: 4.5%;
-    }
+        right: 4.5%; }
     .hug {width:20%; 
     position: relative; right: 4.5%;
     }
