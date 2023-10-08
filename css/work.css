@@ -3,16 +3,17 @@ body {
     height:100%;
 }
 
+
 .goback {
     color: plum;
     background-color: rgb(255, 255, 255);
     width: 23%;
     padding: 0.5%;
+    margin: 0%;
     border: 3px solid yellow;
-    position: sticky;
-    position: -webkit-sticky;
+    position: fixed;
     top: 0%;
-    left: 1%;
+    left: 0%;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center; 
 }
@@ -22,10 +23,9 @@ body {
     width: 23%;
     padding: 0.5%;
     border: 3px solid yellow;
-    position: sticky;
-    position: -webkit-sticky;
+    position: fixed;
     top: 0%;
-    left: 24.5%;
+    left: 24.25%;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
@@ -35,10 +35,9 @@ body {
     width: 23%;
     padding: 0.5%;
     border: 3px solid yellow;
-    position: sticky;
-    position: -webkit-sticky;
+    position: fixed;
     top: 0%;
-    left: 49.5%;
+    left: 50%;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
@@ -48,10 +47,9 @@ body {
     width: 23%;
     padding: 0.5%;
     border: 3px solid yellow;
-    position: sticky;
-    position: -webkit-sticky;
+    position: fixed;
     top: 0%;
-    left: 74.5%;
+    right:0%;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
@@ -62,10 +60,8 @@ body {
     opacity: 1;
 }
 
-div a:link {color: plum; text-decoration: none;}
-div a:visited {color: plum; text-decoration: none;}
-div a:hover {color: aqua;}
-div a:active {color: chartreuse;}
+ a:link {color: plum; text-decoration: none;}
+ a:visited {color: plum; text-decoration: none;}
 
 p {
     font-family: Arial, Helvetica, sans-serif;
@@ -92,6 +88,10 @@ img {
     margin-right: auto;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+.akaii {
+    margin-top: 10%;
 }
 
 .akaii1:hover, .occupy1:hover, .stickyfeet1:hover, .stickyfeet2:hover, .ice-princess1:hover,
@@ -147,10 +147,10 @@ img {
 .altice {width:30%;}
 .goback, .menu, .menu2, .menu3 { position:fixed; left:1%;}
 .goback {top:1%; width:7.4%; }
-.menu {top:7.2%; width:6%;}
-.menu2 {top:12.15%; width:6%;}
-.menu3 {top:17.1%; width:6%;} 
-
+.menu {top:6%; width:6%;}
+.menu2 {top:11.05%; width:6%;}
+.menu3 {top:16.1%; width:6%;} 
+.akaii {  margin-top: 5%;}
 }
 
 

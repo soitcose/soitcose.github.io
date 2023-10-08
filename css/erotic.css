@@ -6,10 +6,10 @@ body { background-color: rgb(255, 243, 215);}
     width: 32%;
     padding: 0.5%;
     border: 3px solid rgb(255, 206, 114);
-    position: sticky;
-    position: -webkit-sticky;
+    position: fixed;
+    margin:0%;
     top: 0%;
-    left: 1%;
+    left: 0%;
     font-size: 12pt;
     text-align: center; 
 }
@@ -19,10 +19,9 @@ body { background-color: rgb(255, 243, 215);}
     width: 32%;
     padding: 0.5%;
     border: 3px solid rgb(255, 206, 114);
-    position: sticky;
-    position: -webkit-sticky;
+    position: fixed;
     top: 0%;
-    left: 33%;
+    left: 32.5%;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
@@ -32,10 +31,9 @@ body { background-color: rgb(255, 243, 215);}
     width: 32%;
     padding: 0.5%;
     border: 3px solid rgb(255, 206, 114);
-    position: sticky;
-    position: -webkit-sticky;
+    position: fixed;
     top: 0%;
-    left: 74.5%;
+    right:0%;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
@@ -46,8 +44,8 @@ body { background-color: rgb(255, 243, 215);}
     opacity: 1;
 }
 
-div a:link {color: plum; text-decoration: none;}
-div a:visited {color: plum; text-decoration: none;}
+ a:link {color: plum; text-decoration: none;}
+ a:visited {color: plum; text-decoration: none;}
 
 p {
     font-family:Georgia, 'Times New Roman', Times, serif;
@@ -60,6 +58,7 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(0, 0, 0);
     font-size: 35pt;
+    margin-top: 9%;
 }
 
 h2 {
@@ -72,4 +71,8 @@ h2 {
     width: 90%;
     text-align: left;
     margin: auto;
+}
+
+@media only screen and (min-width: 768px){
+   .alltext { width:60%;}
 }
