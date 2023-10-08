@@ -2,6 +2,55 @@ body {
     background-color: rgb(153, 224, 169);
 }
 
+.goback {
+    color: plum;
+    background-color: rgb(255, 255, 255);
+    width: 32%;
+    padding: 0.5%;
+    border: 3px solid yellow;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0%;
+    left: 1%;
+    font-size: 12pt;
+    text-align: center; 
+}
+
+.menu {
+    background-color: rgb(255, 255, 255);
+    width: 32%;
+    padding: 0.5%;
+    border: 3px solid yellow;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0%;
+    left: 33%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.menu3 {
+    background-color: rgb(255, 255, 255);
+    width: 32%;
+    padding: 0.5%;
+    border: 3px solid yellow;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0%;
+    left: 74.5%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.goback:hover, .menu:hover, .menu2:hover, .menu3:hover {
+    background-color: rgb(243, 112, 132);
+    -webkit-text-fill-color: rgb(153, 224, 169);
+    opacity: 1;
+}
+
+div a:link {color: plum; text-decoration: none;}
+div a:visited {color: plum; text-decoration: none;}
+
 p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20pt;
@@ -23,4 +72,8 @@ img {
 
 @media only screen and (min-width: 768px){
   img { max-width:30%; height: 30%;}
+  .goback, .menu, .menu3 { position:fixed; left:1%;}
+    .goback {top:2.7%; width:7.4%; }
+    .menu {top:7.9%; width:6%;}
+    .menu3 {top:13.05%; width:6%;} 
 }

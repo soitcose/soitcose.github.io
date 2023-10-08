@@ -3,47 +3,63 @@ body {
     height:100%;
 }
 
-.menu {
+.goback {
+    color: plum;
     background-color: rgb(255, 255, 255);
-    width: 5%;
+    width: 23%;
     padding: 0.5%;
     border: 3px solid yellow;
     position: sticky;
     position: -webkit-sticky;
     top: 0%;
-    left: 37.5%;
+    left: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center; 
+}
+
+.menu {
+    background-color: rgb(255, 255, 255);
+    width: 23%;
+    padding: 0.5%;
+    border: 3px solid yellow;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0%;
+    left: 24.5%;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
 
 .menu2 {
     background-color: rgb(255, 255, 255);
-    width: 5%;
+    width: 23%;
     padding: 0.5%;
     border: 3px solid yellow;
     position: sticky;
     position: -webkit-sticky;
     top: 0%;
-    left: 44.5%;
+    left: 49.5%;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
 
 .menu3 {
     background-color: rgb(255, 255, 255);
-    width: 10%;
+    width: 23%;
     padding: 0.5%;
     border: 3px solid yellow;
     position: sticky;
     position: -webkit-sticky;
     top: 0%;
-    left: 51.5%;
+    left: 74.5%;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
 
-.menu:hover, .menu2:hover, .menu3:hover {
+.goback:hover, .menu:hover, .menu2:hover, .menu3:hover {
     background-color: rgb(52, 221, 43);
+    -webkit-text-fill-color: aqua;
+    opacity: 1;
 }
 
 div a:link {color: plum; text-decoration: none;}
@@ -129,10 +145,11 @@ img {
     border: 5px solid yellow;
 }
 .altice {width:30%;}
-.menu, .menu2, .menu3 { position:fixed; left:1%;}
-.menu {top:1%;}
-.menu2 {top:6%;}
-.menu3 {top:11.05%; width:5%;} 
+.goback, .menu, .menu2, .menu3 { position:fixed; left:1%;}
+.goback {top:1%; width:7.4%; }
+.menu {top:7.2%; width:6%;}
+.menu2 {top:12.15%; width:6%;}
+.menu3 {top:17.1%; width:6%;} 
 
 }
 

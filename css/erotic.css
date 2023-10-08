@@ -1,21 +1,70 @@
-body { background-color: rgb(63, 116, 216);}
+body { background-color: rgb(255, 243, 215);}
+
+.goback {
+    color: plum;
+    background-color: rgb(255, 255, 255);
+    width: 32%;
+    padding: 0.5%;
+    border: 3px solid rgb(255, 206, 114);
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0%;
+    left: 1%;
+    font-size: 12pt;
+    text-align: center; 
+}
+
+.menu {
+    background-color: rgb(255, 255, 255);
+    width: 32%;
+    padding: 0.5%;
+    border: 3px solid rgb(255, 206, 114);
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0%;
+    left: 33%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.menu3 {
+    background-color: rgb(255, 255, 255);
+    width: 32%;
+    padding: 0.5%;
+    border: 3px solid rgb(255, 206, 114);
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0%;
+    left: 74.5%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.goback:hover, .menu:hover, .menu2:hover, .menu3:hover {
+    background-color: rgb(255, 238, 141);
+    -webkit-text-fill-color: rgb(153, 224, 169);
+    opacity: 1;
+}
+
+div a:link {color: plum; text-decoration: none;}
+div a:visited {color: plum; text-decoration: none;}
 
 p {
     font-family:Georgia, 'Times New Roman', Times, serif;
-    color: pink;
+    color: rgb(0, 0, 0);
     font-size: 12pt;
     line-height: 200%;
 }
 
 h1 {
     font-family: Arial, Helvetica, sans-serif;
-    color: pink;
+    color: rgb(0, 0, 0);
     font-size: 35pt;
 }
 
 h2 {
     font-family: Arial, Helvetica, sans-serif;
-    color: pink;
+    color: rgb(0, 0, 0);
     font-size: 16pt;
 }
 
