@@ -12,3 +12,8 @@ h1 {
     font-size: 20pt;
     font-weight: bold;
 }
+
+a:link { color: white;   }
+a:visited { color: rgb(255, 255, 255);}
+a:hover {color: aqua;}
+a:active {color: aqua;}
