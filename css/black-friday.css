@@ -85,6 +85,7 @@ img {
 
   .img1 {
     transform: rotate(90deg);
+    margin-top: 9%;
 }
 
 .img2 {
@@ -95,5 +96,6 @@ img {
 .goback {top:2.7%; width:7.4%; }
 .menu {top:7.9%; width:6%;}
 .menu3 {top:13.05%; width:6%;} 
+.img1 {margin-top: 0;}
 
 }

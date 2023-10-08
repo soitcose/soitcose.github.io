@@ -71,10 +71,15 @@ h1 {
     color: yellow;
 }
 
+.portrait {
+    text-align: center;
+    margin: auto;
+}
+
 img {width: 90%;
     border: 3px solid yellow;
     position: relative;
-margin-top: 4%;}
+margin-top: 10%;}
 
 @media only screen and (min-width: 768px) {
     img {
@@ -92,7 +97,7 @@ margin-top: 4%;}
         top:5%;
     }
     .goback, .menu, .menu2 { position:fixed; left:1%;}
-    .goback {top:2.7%; width:7.4%; }
-    .menu {top:7.9%; width:6%;}
-    .menu2 {top:13.05%; width:6%;} 
+    .goback {top:2.7%; width:7.5%; }
+    .menu {top:8%; width:6%;}
+    .menu2 {top:13.2%; width:6%;} 
 }
